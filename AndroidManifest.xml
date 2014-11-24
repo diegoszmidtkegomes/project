@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fullservicecar"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light" >
+
+        <activity
+            android:name="atividades.SplashScreen"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="atividades.AtividadePrincipal" >
+        </activity>
+        <activity android:name="atividades.Despesas_Activity" >
+        </activity>
+        <activity android:name="atividades.Perfil_Activity" >
+        </activity>
+        <activity android:name="atividades.Veiculos_Activity" >
+        </activity>
+        <activity android:name="atividades.Servicos_Activity" >
+        </activity>
+        <activity android:name="atividades.Abastecimento_Activity" >
+        </activity>
+        <activity android:name="atividades.Lembretes_Activity" >
+        </activity>
+        <activity android:name="atividades.Perfil_Inicial_Activity" >
+        </activity>
+        <activity android:name="atividades.Veiculos_Inicial_Activity" >
+        </activity>
+        <activity android:name="atividades.Abastecimento_View_Activity" >
+        </activity>
+        <activity android:name="atividades.Abastecimento_Edit_Activity" >
+        </activity>
+        <activity android:name="atividades.Despesas_Edit_Activity" >
+        </activity>
+        <activity android:name="atividades.Despesas_View_Activity" >
+        </activity>
+        <activity android:name="atividades.Servicos_Edit_Activity" >
+        </activity>
+        <activity android:name="atividades.Servicos_View_Activity" >
+        </activity>
+        <activity android:name="atividades.Veiculos_View_Activity" >
+        </activity>
+        <activity android:name="atividades.Lembretes_View_Activity" >
+        </activity>
+        <activity android:name="atividades.Lembretes_Edit_Activity" >
+        </activity>
+        <activity android:name="grafico.Geral_Comparativo" >
+        </activity>
+        <activity android:name="grafico.Abastecimento_GraficoCombustivel" >
+        </activity>
+        <activity android:name="grafico.Despesa_GraficoDespesa" >
+        </activity>
+        <activity android:name="grafico.Servico_GraficoServico" >
+        </activity>
+        <activity android:name="grafico.AnotherBarActivity" >
+        </activity>
+        <activity android:name="fragmentos.Calculadora_Flex" >
+        </activity>
+        <activity android:name="gps.GPS_Opc1" >
+        </activity>
+        <activity android:name="gps.GPS_Opc2" >
+        </activity>
+        <activity android:name="gps.GPS_Opc3" >
+        </activity>
+        <activity android:name="gps.GPS_Opc4" >
+        </activity>
+        <activity android:name="gps.ActMenu" >
+        </activity>
+    </application>
+
+</manifest>

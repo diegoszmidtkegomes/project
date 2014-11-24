@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/op2endereco1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:hint="Ponto de Partida" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/op2btbuscar1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buscar" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/op2lisendereco1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" >
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/op2endereco2"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:hint="Destino" />
+
+        <Button
+            android:id="@+id/op2btbusca2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buscar e Calcular" />
+
+    </LinearLayout>
+    
+    <ListView
+        android:id="@+id/op2listaenederecos2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/op2endereco2"
+        android:layout_toLeftOf="@+id/op2btbusca2" >
+
+    </ListView>
+
+</LinearLayout>

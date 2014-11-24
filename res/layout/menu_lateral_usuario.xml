@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+ 
+    <!-- Foto do usuário -->
+    
+    <ImageButton
+        android:id="@+id/fotoUsuario"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:contentDescription="@string/descricao_foto"
+        android:background="@drawable/user_hq" />
+ 
+    <!-- Nome do usuário -->
+    
+    <TextView
+        android:id="@+id/nomeUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="0dp"
+        android:layout_toRightOf="@+id/fotoUsuario"
+        android:padding="0dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#1d97dd"
+        android:textStyle="bold"
+        android:text="@string/nome_usuario" />
+ 
+    <!-- Email do usuário -->
+    
+    <TextView
+        android:id="@+id/emailUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nomeUsuario"
+        android:layout_marginLeft="5dip"
+        android:layout_toRightOf="@+id/fotoUsuario"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#777777"
+        android:text="@string/email_usuario" />
+ 
+</RelativeLayout>

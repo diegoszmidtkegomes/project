@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/btbuscar"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="47dp"
+        android:layout_weight="1"
+        android:text="Obter Distância entre a localização atual e um outro endereço" />
+
+      <Button
+          android:id="@+id/button3"
+          android:layout_width="350dp"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_below="@+id/btbuscarendereco1"
+          android:layout_marginTop="27dp"
+          android:layout_weight="1"
+          android:text="Obter a distância entre duas coordenadas" />
+
+      <Button
+          android:id="@+id/btbuscarendereco1"
+          android:layout_width="350dp"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_below="@+id/btbuscar"
+          android:layout_marginTop="17dp"
+          android:layout_weight="1"
+          android:text="Obter a distância entre dois Endereços" />
+
+      <Button
+          android:id="@+id/button1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentRight="true"
+          android:layout_below="@+id/button3"
+          android:layout_marginTop="26dp"
+          android:text="Obter Endereço de uma coordenada" />
+
+</RelativeLayout>

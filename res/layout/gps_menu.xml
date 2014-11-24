@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/gps_bt_menu_opc1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:background="@android:color/transparent"
+        android:src="@drawable/gps_bt_menu_opc1" />
+
+    <ImageButton
+        android:id="@+id/gps_bt_menu_opc2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:background="@android:color/transparent"
+        android:src="@drawable/gps_bt_menu_opc2" />
+
+    <ImageButton
+        android:id="@+id/gps_bt_menu_opc3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:background="@android:color/transparent"
+        android:src="@drawable/gps_bt_menu_opc3" />
+
+    <ImageButton
+        android:id="@+id/gps_bt_menu_opc4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:background="@android:color/transparent"
+        android:src="@drawable/gps_bt_menu_opc4" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Acessabilidade -->
+    
+    <string name="app_name">Full Service Car</string>
+    <string name="action_settings">Full Service Car v1.0</string>
+    <string name="descricao">Descrição</string>
+    <string name="titulo">Título</string>
+    <string name="subtitulo">Sub-Título</string>
+    <string name="teste">Teste</string>
+    
+    <!-- Splash Screen -->
+    
+    <string name="splashScreenLogo">Splash do logo</string>
+    
+    <!-- Action Bar -->
+    
+    <string name="adicionar">Adicionar</string>
+    <string name="editar">Editar</string>
+    <string name="salvar">Salvar</string>
+    
+    <!-- Drawer Layout -->
+    
+    <string name="abrir_menu">Abrir menu</string>
+    <string name="fechar_menu">Fechar menu</string>
+    
+    	<!-- Spinner do Usuário do Menu lateral -->
+    	
+    	<string name="descricao_foto">Sua foto</string>
+    	<string name="nome_usuario">Nome do usuário</string>
+    	<string name="email_usuario">Email do usuário</string>
+    
+	    <!-- Nomes das sessões -->
+	    
+	    <string name="informacoes_do_usuario">Informações do usuário</string>
+	    <string name="sessoes">Sessões</string>
+	    <string name="ferramentas">Ferramentas</string>
+	    <string name="outros">Outros</string>
+	    
+	    <!-- Funções -->
+	    
+	    <string name="icone_funcao">Icone da função</string>
+	    
+
+</resources>

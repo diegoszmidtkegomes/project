@@ -1,0 +1,481 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp" >
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#01C4BE"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/Relatorios_Geral"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:text="GERAL (0)"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <TableRow android:layout_marginTop="10dp" >
+
+            <TextView
+                android:id="@+id/TextView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Total" />
+
+            <TextView
+                android:id="@+id/Relatorios_Geral_Total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1.0"
+                android:gravity="right" />
+        </TableRow>
+
+        <TableRow android:background="#C8C8C8" >
+
+            <TextView
+                android:id="@+id/TextView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Distância Percorrida" />
+
+            <TextView
+                android:id="@+id/Relatorios_Geral_DistanciaPercorrida"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1.0"
+                android:gravity="right" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/TextView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Número de Dias" />
+
+            <TextView
+                android:id="@+id/Relatorios_Geral_NumeroDeDias"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1.0"
+                android:gravity="right" />
+        </TableRow>
+
+        <TableRow android:background="#C8C8C8" >
+
+            <TextView
+                android:id="@+id/TextView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Custo Diário" />
+
+            <TextView
+                android:id="@+id/Relatorios_Geral_CustoDiario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1.0"
+                android:gravity="right" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/TextView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Custo/Km" />
+
+            <TextView
+                android:id="@+id/Relatorios_Geral_CustoKm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1.0"
+                android:gravity="right" />
+        </TableRow>
+
+        <TableRow android:background="#C8C8C8" >
+
+            <TextView
+                android:id="@+id/TextView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Média Km/Dia" />
+
+            <TextView
+                android:id="@+id/Relatorios_Geral_MediaKmDia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1.0"
+                android:gravity="right" />
+        </TableRow>
+
+        <Button
+            android:id="@+id/Relatorios_Geral_ComparativoGastos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Comparativo De Gastos"
+            android:layout_marginTop="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:background="#01C4BE"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/Relatorios_Abastecimentos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:text="ABASTECIMENTOS (0)"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <TableRow android:layout_marginTop="10dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Total" />
+
+            <TextView
+                android:id="@+id/Relatorios_Abastecimentos_Total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1.0"
+                android:gravity="right" />
+        </TableRow>
+
+        <TableRow android:background="#C8C8C8" >
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Distância Percorrida" />
+
+            <TextView
+                android:id="@+id/Relatorios_Abastecimentos_DistanciaPercorrida"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1.0"
+                android:gravity="right" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Total Litros" />
+
+            <TextView
+                android:id="@+id/Relatorios_Abastecimentos_TotalLitros"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1.0"
+                android:gravity="right" />
+        </TableRow>
+
+        <TableRow android:background="#C8C8C8" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Custo Diário" />
+
+            <TextView
+                android:id="@+id/Relatorios_Abastecimentos_CustoDiario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1.0"
+                android:gravity="right" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Custo/Km" />
+
+            <TextView
+                android:id="@+id/Relatorios_Abastecimentos_CustoKm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1.0"
+                android:gravity="right" />
+        </TableRow>
+
+        <TableRow android:background="#C8C8C8" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Média" />
+
+            <TextView
+                android:id="@+id/Relatorios_Abastecimentos_Media"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1.0"
+                android:gravity="right" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Média Km/Dia" />
+
+            <TextView
+                android:id="@+id/Relatorios_Abastecimentos_MediaKmDia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1.0"
+                android:gravity="right" />
+        </TableRow>
+        
+        <Button
+            android:id="@+id/Relatorios_Abastecimentos_GraficosDosAbastecimentos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gráfico Dos Abastecimentos"
+            android:layout_marginTop="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:background="#01C4BE"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/Relatorios_Despesas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:text="DESPESAS (0)"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <TableRow android:layout_marginTop="10dp" >
+
+            <TextView
+                android:id="@+id/TextView03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Total" />
+
+            <TextView
+                android:id="@+id/Relatorios_Despesas_Total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1.0"
+                android:gravity="right" />
+        </TableRow>
+
+        <TableRow android:background="#C8C8C8" >
+
+            <TextView
+                android:id="@+id/TextView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Custo Diário" />
+
+            <TextView
+                android:id="@+id/Relatorios_Despesas_CustoDiario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1.0"
+                android:gravity="right" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/TextView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Custo/Km" />
+
+            <TextView
+                android:id="@+id/Relatorios_Despesas_CustoKm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1.0"
+                android:gravity="right" />
+        </TableRow>
+
+        <TableRow android:background="#C8C8C8" >
+
+            <TextView
+                android:id="@+id/TextView06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Média Km/Despesa" />
+
+            <TextView
+                android:id="@+id/Relatorios_Despesas_MediaKmDespesa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1.0"
+                android:gravity="right" />
+        </TableRow>
+<Button
+            android:id="@+id/Relatorios_Despesas_GraficoDasDespesas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gráfico Das Despesas"
+            android:layout_marginTop="10dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:background="#01C4BE"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/Relatorios_Servicos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:text="SERVIÇOS (0)"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <TableRow android:layout_marginTop="10dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Total" />
+
+            <TextView
+                android:id="@+id/Relatorios_Servicos_Total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1.0"
+                android:gravity="right" />
+        </TableRow>
+
+        <TableRow android:background="#C8C8C8" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Custo Diário" />
+
+            <TextView
+                android:id="@+id/Relatorios_Servicos_CustoDiario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1.0"
+                android:gravity="right" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Custo/Km" />
+
+            <TextView
+                android:id="@+id/Relatorios_Servicos_CustoKm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1.0"
+                android:gravity="right" />
+        </TableRow>
+
+        <TableRow android:background="#C8C8C8" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Média Km/Serviço" />
+
+            <TextView
+                android:id="@+id/Relatorios_Servicos_MediaKmServico"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1.0"
+                android:gravity="right" />
+        </TableRow>
+        <Button
+            android:id="@+id/Relatorios_Servicos_GraficosDosServicos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gráfico Dos Serviços"
+            android:layout_marginTop="10dp" />
+    </TableLayout>
+    
+    
+    
+    
+
+</ScrollView>

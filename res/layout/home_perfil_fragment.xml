@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/TableLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="#01C4BE"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:text="Perfil"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/TextView37"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Nome" />
+
+        <TextView
+            android:id="@+id/Home_Texto_NomeUsuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1.0"
+            android:gravity="right" />
+
+    </TableRow>
+
+    <TableRow android:background="#C8C8C8" >
+
+        <TextView
+            android:id="@+id/TextView34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="E-mail" />
+
+        <TextView
+            android:id="@+id/Home_Texto_Email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1.0"
+            android:gravity="right" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/TextView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Data de nascimento" />
+
+        <TextView
+            android:id="@+id/Home_Texto_DataDeNascimento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1.0"
+            android:gravity="right" />
+
+    </TableRow>
+
+    <TableRow android:background="#C8C8C8" >
+
+        <TextView
+            android:id="@+id/TextView35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="CNH" />
+
+        <TextView
+            android:id="@+id/Home_Texto_CNH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1.0"
+            android:gravity="right" />
+
+    </TableRow>
+
+</TableLayout>

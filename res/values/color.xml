@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- Azul fff-->
+    <color name="lista_item_title">#fff</color>
+    <!-- Cinza para preto 303030 -->
+    <color name="lista_background">#303030</color>
+    <!-- Vermelho 992416 -->
+    <color name="lista_background_pressionado">#992416</color>
+    <!-- Cinza para preto 272727 -->
+    <color name="lista_divider">#272727</color>
+    <!-- Cinza escuro 626262 -->
+    <color name="counter_text_bg">#626262</color>
+    <!-- Cinza claro c5c4c4 -->
+    <color name="counter_text_color">#c5c4c4</color>
+    
+    <!-- Azul fff
+    <color name="lista_item_title">#fff</color>
+    Cinza para preto 303030 
+    <color name="lista_background">#303030</color>
+    Vermelho 992416 
+    <color name="lista_background_pressionado">#992416</color>
+    Cinza para preto 272727 
+    <color name="lista_divider">#272727</color>
+    Cinza escuro 626262 
+    <color name="counter_text_bg">#626262</color>
+    Cinza claro c5c4c4 
+    <color name="counter_text_color">#c5c4c4</color>-->
+</resources>

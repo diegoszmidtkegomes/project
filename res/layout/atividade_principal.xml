@@ -1,0 +1,31 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+ 
+    <!-- FrameLayout: É o corpo do app (tela) -->
+         
+    <FrameLayout
+        android:id="@+id/corpo"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+ 
+   <!-- ListView: Ela vai carregar todas as opções do menu lateral (Navigation Drawer)
+   		
+   		android:layout_gravity="start": Esse componente que faz o menu ficar fora da tela,
+   		da esquerda para a direita (ele fica a 240dp para a esquerda).
+   		
+    -->
+ 
+    <ListView
+        android:id="@+id/menu_lateral"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:background="#ffff"/>
+    
+</android.support.v4.widget.DrawerLayout>
